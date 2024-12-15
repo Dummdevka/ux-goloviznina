@@ -1,0 +1,8 @@
+.custom-input {
+    background: transparent;
+    border: 1px solid #D5D5D5;
+    height: 2rem;
+    font-family: "Rubik", "Inter", serif;
+    font-size: var(--small-text);
+}
+

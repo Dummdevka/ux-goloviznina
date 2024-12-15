@@ -1,0 +1,14 @@
+.sidebar-container {
+    background: var(--color--brown);
+}
+.nav-item {
+    padding: 1rem 2rem;
+    color: var(--color--light-gray);
+    font-size: var(--text);
+    transition: all 0.2s ease-out;
+}
+.nav-item:hover {
+    color: var(--color--pistacio);
+    border-bottom: 1px solid var(--color--pistacio);
+}
+

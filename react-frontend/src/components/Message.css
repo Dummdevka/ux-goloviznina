@@ -1,0 +1,36 @@
+.message-container {
+    border: var(--border-widget);
+    box-shadow: var(--shadow);
+    height: 5rem;
+}
+.title {
+    font-size: var(--normal);
+    color: var(--color--black);
+}
+.content {
+    font-size: var(--text);
+    /*color: var(--color--light-gray);*/
+}
+
+.message-label {
+    box-shadow: var(--shadow);
+    height: 1.5rem;
+    text-align: center;
+    padding: 3px;
+    border: var(--border-widget);
+}
+
+.message-label.error {
+    background: var(--color--apricot);
+    color: var(--color--light-gray);
+}
+
+.message-label.message {
+    background: var(--color--tea);
+    color: var(--color--light-gray);
+}
+
+.message-label.warning {
+    background: var(--color--brown);
+    color: var(--color--light-gray);
+}

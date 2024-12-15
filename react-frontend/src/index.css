@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Rubik", "Inter", serif; font-optical-sizing: auto;
+}
+:root {
+  --color--apricot: #FFCAB1;
+  --color--dutch: #ECDCB0;
+  --color--tea: #C1D7AE;
+  --color--pistacio: #8CC084;
+  --color--brown: #968E85;
+  --color--light-gray: #F5F5F5;
+  --color--black: #000;
+  --color--link-inactive: #D3D3D3;
+  --color--shadow: #D9D9D9;
+
+
+  --title-color: var(--color--black);
+  --text-color: var(--color--brown);
+  --title-hero: 2.5rem;
+  --normal: 1.5rem;
+  --text: 0.875rem;
+  --small-text: 0.625rem;
+
+  --border-widget: 1px solid var(--color--link-inactive);
+  --shadow: 0px 4px 4px var(--color--shadow);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+
+  color: var(--text-color); line-height: 100%;
 }
+
+h1, h2, h3, h4, h5 { line-height: 120%; }
+
+h1 { font-size: var(--title-hero); color: var(--title-color)}
+p {font-size: var(--normal); color: var(--normal)}
