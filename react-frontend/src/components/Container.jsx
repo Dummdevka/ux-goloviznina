@@ -4,7 +4,7 @@ import './Container.css'
 
 const Container = ({children}) => {
     return (
-        <div className="container w-100 h-full m-3 border-md flex p-5 rounded-md">
+        <div className="container w-full h-full border-md flex p-5 rounded-md">
             {children} 
         </div>
     )
