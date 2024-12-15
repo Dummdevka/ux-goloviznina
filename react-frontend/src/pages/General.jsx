@@ -9,10 +9,10 @@ import bar from '../media/bar.png'
 
 const General = () => {
     return (
-        <div class="p-5 content grid grid-cols-2 max-sm:grid-cols-1 gap-2 grid-rows-8 place-items-center w-full h-full">
+        <div class="p-5 content grid grid-cols-2 max-sm:grid-cols-1 gap-4 grid-rows-8 place-items-center w-full h-full">
             
             <div class="justify-self-start self-start">
-                <Select />
+                <Select names={['Env', 'Dashboard', 'Period']}/>
             </div>
             <div class="md:row-span-4 self-start">
                 <Widget content={pie} description="This is some interesting statistics" css="self-end"></Widget>

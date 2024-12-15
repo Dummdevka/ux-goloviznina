@@ -1,0 +1,4 @@
+.filter:hover {
+    background: var(--color--tea);
+    border: solid var(--color--shadow);
+}

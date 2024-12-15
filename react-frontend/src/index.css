@@ -50,11 +50,16 @@
 html,body {
   margin:0;
   width: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
   color: var(--text-color); line-height: 100%;
 }
 
+h3 {font-size: var(--normal); color: var(--color--black)}
+.small-title {
+    font-size: var(--text); color: var(--color--black);
+}
 h1, h2, h3, h4, h5 { line-height: 120%; }
 
 h1 { font-size: var(--title-hero); color: var(--title-color)}
-p {font-size: var(--text); color: var(--normal)}
+p, td {font-size: var(--text); color: var(--normal)}
+

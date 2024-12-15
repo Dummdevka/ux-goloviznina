@@ -3,7 +3,7 @@
     box-shadow: var(--shadow);
     height: 5rem;
 }
-.title {
+.message-container .title {
     font-size: var(--text);
     color: var(--color--black);
 }

@@ -10,7 +10,7 @@ const Messages = () => {
                 <Input></Input>
             </div>
 
-            <Select />
+            <Select names={['Env', 'Dashboard', 'Period']}/>
             <div class=" gap-3 mt-5 messages flex flex-col">
                 <Message with_label={true} type="1"></Message>
                 <Message with_label={true} type="2"></Message>

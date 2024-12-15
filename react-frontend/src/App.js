@@ -3,6 +3,7 @@ import General from './pages/General';
 import Messages from './pages/Messages';
 import Message from './pages/Message';
 import Layout from './Layout';
+import Discover from './pages/Discover';
 
 import { Route, Routes } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
@@ -15,6 +16,7 @@ function App() {
                 <Route index element={<General />} />
                 <Route path="messages" element={<Messages />} />
                 <Route path="message" element={<Message />} />
+                <Route path="dicover" element={<Discover />} />
             </Route>
         </Routes>
       </BrowserRouter>

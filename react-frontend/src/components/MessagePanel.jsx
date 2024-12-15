@@ -2,6 +2,7 @@ import Message from './Message'
 import Table from './Table'
 import './MessagePanel.css'
 import React, { useState } from 'react';
+import { Outlet, Link } from "react-router-dom";
 
 const MessagePanel = () => {
     const [selected, setSelected] = useState(1);
@@ -48,8 +49,13 @@ const MessagePanel = () => {
                 </div>
             }
             {selected == 3 &&
-                <div class="p-4">
+                <div class="p-4 flex flex-col items-start gap-4">
                     <Table />
+                    <div class="btn p-3 rounded-sm tea hover:text-white">
+                        <Link to='/dicover'>
+                            <p>Show in Discover</p>
+                        </Link>
+                    </div>
                 </div>
             }
             </div>

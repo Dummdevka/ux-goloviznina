@@ -5,9 +5,9 @@ import { Outlet, Link } from "react-router-dom";
 const Message = ({with_label, type}) => {
     return (
         <Link to='/message'>
-            <div className="bg-white message-container flex flex-row justify-between p-2 rounded-md items-center w-full max-h-12">
+            <div className="bg-white message-container flex flex-row justify-between p-2 rounded-md items-center w-full max-h-12 min-w-40">
                 <div className="message-text flex flex-col justify-evenly h-full items-start">
-                    <p className="title">Message</p>
+                    <p className="small-title">Message</p>
                     <p className="content">This is very important message!</p>
                 </div>
                 {with_label && type == 1 &&
