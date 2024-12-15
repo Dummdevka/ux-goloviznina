@@ -4,15 +4,16 @@
     height: 5rem;
 }
 .title {
-    font-size: var(--normal);
+    font-size: var(--text);
     color: var(--color--black);
 }
 .content {
-    font-size: var(--text);
+    font-size: var(--small-text);
     /*color: var(--color--light-gray);*/
 }
 
 .message-label {
+    color: white;
     box-shadow: var(--shadow);
     height: 1.5rem;
     text-align: center;
@@ -22,15 +23,15 @@
 
 .message-label.error {
     background: var(--color--apricot);
-    color: var(--color--light-gray);
+    /*color: var(--color--light-gray);*/
 }
 
 .message-label.message {
     background: var(--color--tea);
-    color: var(--color--light-gray);
+    /*color: var(--color--light-gray);*/
 }
 
 .message-label.warning {
     background: var(--color--brown);
-    color: var(--color--light-gray);
+    /*color: var(--color--light-gray);*/
 }

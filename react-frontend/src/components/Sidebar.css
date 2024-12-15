@@ -1,5 +1,7 @@
 .sidebar-container {
     background: var(--color--brown);
+    position: sticky;
+    top: 0;
 }
 .nav-item {
     padding: 1rem 2rem;

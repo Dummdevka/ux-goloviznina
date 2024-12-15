@@ -21,6 +21,7 @@
     --shadow: opx 4px 4px var(--color--shadow);
 }
 
+
 body {
     font-family: "Rubic", "Inter", serif; font-optical-sizing: auto;
     color: var(--text-color); line-height: 100%;
