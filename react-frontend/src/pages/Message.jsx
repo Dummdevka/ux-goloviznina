@@ -1,4 +1,5 @@
 import MessagePanel from '../components/MessagePanel'
+import messageStats from '../media/message-stats.png'
 
 const Message = () => {
     return (
@@ -24,7 +25,9 @@ const Message = () => {
                 </div>
                 <div class="stat py-3 px-4 border-b-2">
                     <h3 class="text-black small-title">Number of occurences</h3>
-                    <p>PASTE GRAPH HERE</p>
+                    <div class="my-1">
+                        <img src={messageStats} />
+                    </div>
                 </div>
             </div>
             <div class="hidden max-md:block">

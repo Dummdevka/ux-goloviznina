@@ -13,7 +13,9 @@ const Widget = ({ content, description }) => {
     return (
         <div className="widget flex flex-col bg-white items-start justify-between p-3 rounded-md">
             <h3 className="title mb-2">Widget</h3>
-            <img height="50" width="50" src={content} alt="Graph" className="h-full w-full"/>
+            <div>
+                <img height="350" width="350" src={content} alt="Graph" className=""/>
+            </div>
         </div>
     );
 }

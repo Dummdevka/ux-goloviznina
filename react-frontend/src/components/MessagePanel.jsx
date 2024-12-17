@@ -52,7 +52,7 @@ const MessagePanel = () => {
                 <div class="p-4 flex flex-col items-start gap-4">
                     <Table />
                     <div class="btn p-3 rounded-sm tea hover:text-white">
-                        <Link to='/dicover'>
+                        <Link to='/discover'>
                             <p>Show in Discover</p>
                         </Link>
                     </div>

@@ -16,7 +16,7 @@ function App() {
                 <Route index element={<General />} />
                 <Route path="messages" element={<Messages />} />
                 <Route path="message" element={<Message />} />
-                <Route path="dicover" element={<Discover />} />
+                <Route path="discover" element={<Discover />} />
             </Route>
         </Routes>
       </BrowserRouter>
